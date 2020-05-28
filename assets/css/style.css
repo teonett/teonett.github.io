@@ -1344,4 +1344,17 @@ body {
   .timeline .arrows {
     display: none;
   }
+
+  /* SHOW / HIDE / COLAPSE
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+  .collapse {
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.8s;
+  }
+
+  input:checked + .collapse {
+    height: 200px;
+  }
 }
